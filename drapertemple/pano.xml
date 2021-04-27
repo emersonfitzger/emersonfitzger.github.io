@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.11" apprev="18043" id="node1">
+  <input width="2250" leveltilesize="510" height="2250" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0">
+    <level width="2250" predecode="0" height="2250" preload="0"/>
+    <level width="1125" predecode="0" height="1125" preload="0"/>
+    <level width="562" predecode="0" height="562" preload="0"/>
+    <level width="281" predecode="1" height="281" preload="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="-95.8596">
+    <start tilt="0" projection="4" fov="70" pan="0"/>
+    <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+    <min fovpixel="2" tilt="-90" pan="0"/>
+    <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
+  </view>
+  <userdata title="" copyright="" info="" latitude="40.49561565" source="" description="" heading="-95.8596" tags="Desktop" customnodeid="" author="GBF" comment="" datetime="4/26/21 6:59 AM" nodeid="node1" longitude="-111.83984399"/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" textcolor="0x000000" border="1" textalpha="1" borderalpha="1" height="20" wordwrap="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" backgroundcolor="0xffffff" background="1"/>
+    <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+    <hotspot title="Draper Utah LDS Temple" tilt="20.4" skinid="ht_url" url="https://www.churchofjesuschrist.org/temples/details/draper-utah-temple?lang=eng" description="" target="_blank" pan="-358.7" id="Point01"/>
+  </hotspots>
+  <media/>
+  <transition type="crossdissolve" zoomafteroutfov="20" zoomfov="20" blendtime="1" zoomout="0" zoomin="0" zoomoutpause="1" enabled="1" zoomspeed="2" blendcolor="0x000000" zoomafterinfov="90" softedge="0"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+  <control lockedkeyboard="0" rubberband="0" hideabout="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedmouse="0" lockedwheel="0" contextfullscreen="1" invertcontrol="1" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboardzoom="0"/>
+</panorama>
