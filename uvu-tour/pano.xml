@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.11" start="node1" apprev="18043">
+  <panorama id="node1">
+    <input levelingpitch="0" overlap="1" levelingroll="8" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2250" leveltilesize="510" levelbiashidpi="1.000" height="2250" levelbias="0.400">
+      <level preload="0" width="2250" predecode="0" height="2250"/>
+      <level preload="0" width="1125" predecode="0" height="1125"/>
+      <level preload="0" width="562" predecode="0" height="562"/>
+      <level preload="1" width="281" predecode="1" height="281"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata datetime="4/23/21 8:04 AM" comment="" description="" info="" customnodeid="" copyright="" longitude="" author="GBF" title="" tags="Desktop" source="" latitude="" nodeid="node1" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" backgroundcolor="0xffffff" wordwrap="1" border="1" enabled="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderalpha="1" background="1" borderradius="1" backgroundalpha="1" height="20"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" skinid="ht_image" pan="-180.54" id="Point01" tilt="16.41" title="CS Building" url="images/CS-Building-Connor-Allen-3-e1391562811532.jpg" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-190.53" id="Point02" tilt="-3.07" title="Move here" url="{node2}" target="0.9/-8.9/70.0"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" startmutedmobile="0" ambientlevel="0.000" pan="-0.210" pansize="10.000" id="Element01" tilt="-1.850" tiltsize="10.000" level="1.000" mode="3" nodechangekeep="0" loop="0">
+        <source url="media/High School Hallway Ambience #2 (Background Sound Effect)-[AudioTrimmer.com].mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" enabled="1" zoomafterinfov="90" zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomfov="20" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertwheel="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" rubberband="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" overlap="1" levelingroll="-3" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2250" leveltilesize="510" levelbiashidpi="1.000" height="2250" levelbias="0.400">
+      <level preload="0" width="2250" predecode="0" height="2250"/>
+      <level preload="0" width="1125" predecode="0" height="1125"/>
+      <level preload="0" width="562" predecode="0" height="562"/>
+      <level preload="1" width="281" predecode="1" height="281"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata datetime="4/23/21 8:06 AM" comment="" description="" info="" customnodeid="" copyright="" longitude="" author="GBF" title="" tags="Desktop" source="" latitude="" nodeid="node2" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" backgroundcolor="0xffffff" wordwrap="1" border="1" enabled="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderalpha="1" background="1" borderradius="1" backgroundalpha="1" height="20"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" skinid="ht_node" pan="-183.12" id="Point01" tilt="-4.28" title="Move here" url="{node1}" target="0.0/0.0/70.0"/>
+      <hotspot description="" skinid="ht_video_youtube" pan="-269.62" id="Point02" tilt="13.37" title="If video isn't showing up, click this!" url="UyJZ7N_UqhM" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-359.41" id="Point03" tilt="-4.81" title="Move here" url="{node3}" target="0.0/0.0/70.0"/>
+    </hotspots>
+    <media>
+      <video startmutedmobile="0" ambientlevel="0.100" fov="30.000" loop="1" handcursor="1" rotz="0.000" height="720" nodechangekeep="0" stretch="1.000" pan="-268.760" pansize="10.000" tiltsize="10.000" mode="3" rotx="0.000" tilt="1.570" clickmode="2" id="Element01" width="1280" field="90.000" roty="0.000" level="1.000">
+        <source url="media/UVU_ Who Am I?.mp4"/>
+      </video>
+    </media>
+    <transition blendtime="1" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" enabled="1" zoomafterinfov="90" zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomfov="20" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertwheel="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" rubberband="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingpitch="0" overlap="1" levelingroll="-1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2250" leveltilesize="510" levelbiashidpi="1.000" height="2250" levelbias="0.400">
+      <level preload="0" width="2250" predecode="0" height="2250"/>
+      <level preload="0" width="1125" predecode="0" height="1125"/>
+      <level preload="0" width="562" predecode="0" height="562"/>
+      <level preload="1" width="281" predecode="1" height="281"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata datetime="4/23/21 8:08 AM" comment="" description="" info="" customnodeid="" copyright="" longitude="" author="GBF" title="" tags="Desktop" source="" latitude="" nodeid="node3" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" backgroundcolor="0xffffff" wordwrap="1" border="1" enabled="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderalpha="1" background="1" borderradius="1" backgroundalpha="1" height="20"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" skinid="ht_image" pan="-302.55" id="Point01" tilt="15.47" title="Engineering Major" url="images/engineering.jpg" target=""/>
+      <hotspot description="" skinid="ht_url" pan="-17.97" id="Point02" tilt="25.47" title="CS Degree" url="https://www.uvu.edu/cs/degrees/" target="_blank"/>
+      <hotspot description="" skinid="ht_node" pan="-358.16" id="Point03" tilt="2.15" title="Move here" url="{node4}" target="0.0/0.0/70.0"/>
+      <hotspot description="" skinid="ht_node" pan="-179.03" id="Point04" tilt="-8.56" title="Move here" url="{node2}" target="-179.2/-0.5/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" enabled="1" zoomafterinfov="90" zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomfov="20" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertwheel="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" rubberband="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelingpitch="0" overlap="1" levelingroll="-1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2250" leveltilesize="510" levelbiashidpi="1.000" height="2250" levelbias="0.400">
+      <level preload="0" width="2250" predecode="0" height="2250"/>
+      <level preload="0" width="1125" predecode="0" height="1125"/>
+      <level preload="0" width="562" predecode="0" height="562"/>
+      <level preload="1" width="281" predecode="1" height="281"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata datetime="4/23/21 8:09 AM" comment="" description="" info="" customnodeid="" copyright="" longitude="" author="GBF" title="" tags="Desktop" source="" latitude="" nodeid="node4" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" backgroundcolor="0xffffff" wordwrap="1" border="1" enabled="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderalpha="1" background="1" borderradius="1" backgroundalpha="1" height="20"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="The UVU Computer Science department provides a broad range of programs that support students in many areas. UVU is accredited by the Northwest Commission on Colleges and Universities (NWCCU) which applies to the university as a whole. " skinid="ht_info" pan="-1.23" id="Point01" tilt="-19.57" title="College of Computer Science" url="https://www.uvu.edu/cs/" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-180.64" id="Point02" tilt="-8.57" title="Move here" url="{node3}" target="-178.2/-1.4/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" enabled="1" zoomafterinfov="90" zoomin="0" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomfov="20" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertwheel="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" rubberband="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <masternode>
+    <userdata datetime="" comment="" description="" info="" customnodeid="" copyright="" longitude="" author="" title="" tags="" source="" latitude="" nodeid="master" heading="0"/>
+  </masternode>
+</tour>
